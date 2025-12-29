@@ -1,0 +1,98 @@
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+    
+}
+
+#Authentication{
+    height: 500px;
+    width: 760px;
+    display: flex;
+    border: 2px solid lightblue;
+    box-shadow: -10px 10px 5px lightgray;
+    /* box-shadow: 10px -10px 5px lightblue; */
+    margin: 125px 425px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(206, 229, 237);
+    /* background: linear-gradient( lightblue, rgb(96, 123, 132), rgb(81, 104, 111)); */
+    /* background: linear-gradient(
+    135deg,
+    #d9f2ff,
+    #6b8f9c,
+    #445c64
+    ); */
+    background: linear-gradient(
+    135deg,
+    #e3f6ff 0%,
+    #7fa6b2 50%,
+    #3f565e 100%
+    );
+}
+
+
+#Authentication #title{
+    display: flex;
+    margin-bottom: 400px;
+    margin-left: 200px;
+}
+
+#LoginPage{
+    display: flex;
+    border: 3.5px solid lightblue;
+    height: 220px;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+#LoginPage button{
+    display: flex;
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightblue;
+    border-radius: 25px;
+    background-color: lightblue;
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+}
+#LoginContainer #LoginContainerButton{
+    margin-top: 10px;
+    margin-left: 35px;
+}
+
+#SignUpPage{
+    display: flex;
+    border: 3.5px solid lightblue;
+    height: 220px;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+#SignUpPage button{
+    display: flex;
+    height: 50px;
+    width: 125px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid lightblue;
+    border-radius: 25px;
+    background-color: lightblue;
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+}
+
+#SignUpContainer #SignUpButton{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+
+
+
+

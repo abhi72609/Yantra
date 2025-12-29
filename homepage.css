@@ -1,0 +1,245 @@
+
+
+
+
+/*          HomePage CSS         */
+#mainBody{
+    height: 150vh;
+}
+#Header {
+    display: flex;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+}
+
+/* Main Header Container */
+#HomePageHeader {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+
+/* Logo / Heading */
+#FirstComponent .heading {
+    height: 36px;
+    min-width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-weight: bold;
+    color: #2f4f5a;
+    background: linear-gradient(
+        135deg,
+        #eef8fc 0%,
+        #9bbcc6 50%,
+        #6f8f9b 100%
+    );
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+/* Menu Section */
+#SecondComponent {
+    display: flex;
+    gap: 20px;
+    font-size: 16px;
+}
+
+/* Menu Items */
+#SecondComponent .para {
+    height: 32px;
+    min-width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    cursor: pointer;
+    color: #2f4f5a;
+    transition: all 0.3s ease;
+    background: linear-gradient(
+        135deg,
+        #eef8fc 0%,
+        #9bbcc6 50%,
+        #6f8f9b 100%
+    );
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Hover Effect */
+#SecondComponent .para:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.18);
+    background: linear-gradient(
+        135deg,
+        #9bbcc6 0%,
+        #6f8f9b 50%,
+        #4f6b75 100%
+    );
+    color: #ffffff;
+}
+
+
+/* BODY SECTION */
+/* 
+#body{
+    display: flex;
+    border: 2px dashed lightblue;
+    height: 165vh;
+    margin-top: 10px;
+    gap: 450px;
+    padding: 10px 70px;
+    grid-template-columns: 35px 35px 35px ;
+    grid-template-rows: 10px 10px;
+}
+
+#body .Section{
+    //display: flex;
+    height: 325px;
+    width: 300px;
+    padding-left: 47px;
+    padding-top: 20px;
+    border: 7px double lightblue;
+}
+
+#body .other{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+#Section1{
+    display: flex;
+    height: 550px;
+    width: 1400px;
+    border: 2px solid #3f565e;
+}
+ */
+/* BODY SECTION */
+#body {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px 65px;
+    background: linear-gradient(
+    135deg,
+    #eef8fc 0%,
+    #9bbcc6 50%,
+    #6f8f9b 100%
+    );
+    height: 75vh;
+    text-align: center;
+    align-items: center;
+}
+
+/* Main Section Wrapper */
+#body .Section {
+    width: 100%;
+    border: 2px solid black;
+    padding: 20px 75px;
+}
+
+/* Section 1 Layout */
+.Section1 {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    padding: 30px;
+    border: 2px solid #3f565e;
+}
+
+/* Image Frame */
+.frame {
+    width: 320px;
+    border: 7px solid lightblue;
+    padding: 5px;
+    box-shadow: 1.5px 1.5px 15px darkslategray;
+}
+
+.frame img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Text Content Section */
+.Frame_Divine_Mandala_Art {
+    max-width: 700px;
+}
+
+.Frame_Divine_Mandala_Art h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.Frame_Divine_Mandala_Art p {
+    font-size: 19px;
+    line-height: 1.6;
+    color: #fffcfc;
+}
+
+
+#body .button{
+    height: 55px;
+    width: 55px;
+    /* border: 2px solid black; */
+    align-content: center;
+    text-align: center;
+}
+
+.button #LeftClick{
+    height: 35px;
+    width: 35px;
+    font-size: larger;
+    font-weight: 900;
+    background-color: #6f8f9b;
+    align-items: center;
+}
+
+.button #RightClick{
+    height: 35px;
+    width: 35px;
+    font-size: larger;
+    font-weight: 900;
+    background-color: #6f8f9b;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    align-items: center;
+    height: 60px;
+}
