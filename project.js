@@ -1,31 +1,32 @@
 let loginBtn = document.getElementById("LoginButton");
 let signupBtn = document.getElementById("SignUpButton");
-
 let loginContainer = document.getElementById("LoginContainer");
 let signupContainer = document.getElementById("SignUpContainer");
 
 
 
 loginBtn.addEventListener("click", () => {
+    loginBtn.style.display = "none";
     loginContainer.innerHTML = `
-        <h3>Login</h3>
         <input type="text" id="loginUsername" placeholder="Username">
         <input type="password" id="loginPassword" placeholder="Password">
         <button id="loginSubmit">Login</button>
+
     `;
 });
 
 // SIGNUP FORM
 signupBtn.addEventListener("click", () => {
-    loginContainer.innerHTML = "";
+    signupBtn.style.display = "none";
+    // loginContainer.innerHTML = "";
     signupContainer.innerHTML = `
-        <h3>Signup</h3>
         <input type="text" id="signupUsername" placeholder="Username">
-        <input type="password" id="signupPassword" placeholder="Password">
-        <input type="number" id="signupPhone" placeholder="Phone">
+        <input type="password" id="signupPassword" placeholder="6 Digit Password">
+        <input type="number" id="signupPhone" placeholder="10 Digit-PhoneNo" minlength = "10">
         <button id="signupSubmit">Signup</button>
     `;
 });
+
 
 // SIGNUP LOGIC
 document.addEventListener("click", (e) => {
@@ -35,12 +36,11 @@ document.addEventListener("click", (e) => {
             password: document.getElementById("signupPassword").value,
             phone: document.getElementById("signupPhone").value
         };
-
+    
         if (!user.username || !user.password) {
             alert("All fields required");
             return;
         }
-
         localStorage.setItem("userData", JSON.stringify(user));
         alert("Signup successful! Now Login.");
     }
