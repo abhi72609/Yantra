@@ -4,7 +4,6 @@ let loginContainer = document.getElementById("LoginContainer");
 let signupContainer = document.getElementById("SignUpContainer");
 
 
-
 loginBtn.addEventListener("click", () => {
     loginBtn.style.display = "none";
     loginContainer.innerHTML = `
@@ -18,7 +17,6 @@ loginBtn.addEventListener("click", () => {
 // SIGNUP FORM
 signupBtn.addEventListener("click", () => {
     signupBtn.style.display = "none";
-    // loginContainer.innerHTML = "";
     signupContainer.innerHTML = `
         <input type="text" id="signupUsername" placeholder="Username">
         <input type="password" id="signupPassword" placeholder="6 Digit Password">
@@ -67,80 +65,3 @@ document.addEventListener("click", (e) => {
         }
     }
 });
-
-
-
-
-
-
-
-
-
-// let login = document.getElementById('LoginButton')
-// let LoginContainer = document.getElementById('LoginContainer');
-
-// let SignUp = document.getElementById('SignUpButton')
-// let SignUpContainer = document.getElementById('SignUpContainer');
-
-
-// document.addEventListener("click", function (e) {
-//     if (e.target.id === "LoginContainerButton") {
-
-//         let enteredUsername = document.getElementById("LoginUsername").value;
-//         let enteredPassword = document.getElementById("LoginPassword").value;
-
-//         let savedUser = JSON.parse(localStorage.getItem("userData"));
-
-//         if (!savedUser) {
-//             alert("No user found. Please SignUp first.");
-//             return;
-//         }
-
-//         if (
-//             enteredUsername === savedUser.username &&
-//             enteredPassword === savedUser.password
-//         ) {
-//             localStorage.setItem("loggedUser", savedUser.username);
-//             window.location.href = "homepage.html";
-//         } else {
-//             alert("Wrong username or password");
-//         }
-//     }
-// });
-
-
-
-// let SignUpObject = {};
-
-// SignUp.addEventListener("click", () => {
-//     SignUpContainer.innerHTML = `
-//         <div id="SignUp">
-//             <form id="SignUpForm">
-//                 <input type="name" id="newUserName" placeholder="New UserName">
-//                 <input type="password"  id="password" placeholder="password">
-//                 <input type="number" id="PhoneNumber" placeholder="Phone-Number">
-//                 <button type="submit">Submit</button>
-//             </form>
-//         </div>
-//     `;
-//     SignUp.style.visibility = "hidden"    
-//     login.innerHTML = `SignUp is in Process...`
-//     login.style.height = "125px"
-//     login.style.width = "145px"
-
-//     document.getElementById("SignUpForm").addEventListener("submit", function (e) {
-//     e.preventDefault();
-
-//     let SignUpObject = {
-//         username: document.getElementById("newUserName").value,
-//         password: document.getElementById("password").value,
-//         phone: document.getElementById("PhoneNumber").value
-//     };
-
-//     localStorage.setItem("userData", JSON.stringify(SignUpObject));
-
-//     alert("Signup successful! Now Login.");
-// });
-// });
-
-

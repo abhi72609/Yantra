@@ -214,27 +214,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #footer{
     display: flex;
     width: 100%;
@@ -242,4 +221,6 @@
     border: 2px solid black;
     align-items: center;
     height: 60px;
+    background-color: #2f4f5a;
+    color: white;
 }

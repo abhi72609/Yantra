@@ -1,60 +1,6 @@
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-#Authentication {
-    height: 500px;
-    width: 760px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 120px auto;
-    border: 2px solid lightblue;
-    box-shadow: -10px 10px 5px lightgray;
-    background: linear-gradient(135deg, #e3f6ff 0%, #7fa6b2 50%, #3f565e 100%);
-}
-
-
-#LoginPage,
-#SignUpPage {
-    height: 220px;
-    width: 300px;
-    background-color: white;
-    border: 3.5px solid #fff;
-    box-shadow: 0 0 35px rgb(64, 194, 216);
-    display: grid;
-    place-items: center;
-}
-
-
-#LoginContainer,
-#SignUpContainer {
-    display: grid;
-    gap: 8px;
-    text-align: center;
-    font-size: larger;
-}
-
-
-button {
-    height: 50px;
-    width: 125px;
-    border-radius: 25px;
-    border: 1px solid lightblue;
-    background-color: lightblue;
-    font-size: larger;
-    font-weight: 700;
-    color: white;
-    cursor: pointer;
-}
-
-
-
 /* .body{
     font-family: Arial, Helvetica, sans-serif;
-
+   
     
 }
 
@@ -64,12 +10,10 @@ button {
     display: flex;
     border: 2px solid lightblue;
     box-shadow: -10px 10px 5px lightgray;
-
     margin: 125px 425px;
     justify-content: space-evenly;
     align-items: center;
     background-color: rgb(206, 229, 237);
-
     background: linear-gradient(
     135deg,
     #e3f6ff 0%,
@@ -87,8 +31,7 @@ button {
 
 #LoginPage{
     display: flex;
-    border: 3.5px solid rgb(253, 250, 250);
-    box-shadow: 0px 0px 35px rgb(64, 194, 216);
+    border: 3.5px solid lightblue;
     height: 220px;
     width: 300px;
     justify-content: space-evenly;
@@ -140,6 +83,7 @@ button {
     font-size: larger;
     font-weight: 700;
     color: white;
+    
 }
 
 #SignUpContainer{
@@ -150,3 +94,54 @@ button {
     font-size: larger;
     gap: 5px;
 } */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#Authentication {
+    height: 500px;
+    width: 760px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 120px auto;
+    border: 2px solid lightblue;
+    box-shadow: -10px 10px 5px lightgray;
+    background: linear-gradient(135deg, #e3f6ff 0%, #7fa6b2 50%, #3f565e 100%);
+}
+
+
+#LoginPage,
+#SignUpPage {
+    height: 220px;
+    width: 300px;
+    background-color: white;
+    border: 3.5px solid #fff;
+    box-shadow: 0 0 35px rgb(64, 194, 216);
+    display: grid;
+    place-items: center;
+}
+
+
+#LoginContainer,
+#SignUpContainer {
+    display: grid;
+    gap: 8px;
+    text-align: center;
+    font-size: larger;
+}
+
+
+button {
+    height: 50px;
+    width: 125px;
+    border-radius: 25px;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    font-size: larger;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
